@@ -1,0 +1,178 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 50px;
+  left:0px;
+  background:#D2B48C;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li a {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+  font-family: lust-sans,sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size:25px;
+ }
+
+
+
+li a:hover:not(.bar) {
+  background-color: white;
+}
+
+.bar {
+  animation: comeone 4s ease-in-out;
+}
+
+@keyframes comeone {
+  0% {
+     opacity:0;
+  }
+  
+  20% {
+     opacity:0.2;
+  }
+  
+  40% {
+   opacity:0.4;
+  }
+  
+  60% {
+    opacity:0.6;
+  }
+
+  80% {
+     opacity:0.8;
+  }
+
+  100% {
+    opacity:1.0;
+  }
+}
+
+li b {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-family: lust-sans,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:30px;
+  left:100%; 
+ }
+
+ li b {
+  float: left;
+}
+
+
+@media only screen and (min-width: 812px) {
+
+  .large {
+    display: inline-block;
+  }
+  .small {
+    display: none;
+  }
+
+.description p {
+  font-family: operetta-12,serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size:25px;
+  width:80%;
+  text-align:left;
+  text-align:justify;
+  padding-right:0px;
+  padding-left:40px;
+  padding-top:170px;
+
+}
+
+#sunnies {
+  padding-top:10px;
+  padding-right:5px;
+  padding-left:100px;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.images{
+  flex: 33.33%;
+  padding:5px;
+
+
+}
+
+.row {
+  display: flex;
+  padding-top:50px;
+  padding-right:100px;
+  padding-left:100px;
+  float:left;
+}
+
+}
+
+@media only screen and (max-width: 812px) {
+  .small {
+    display: inline-block;
+    width: 100%;
+  }
+  .large {
+    display: none;
+  }
+
+.description p {
+  font-family: operetta-12,serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size:25px;
+  width:80%;
+  text-align:left;
+  text-align:justify;
+  padding-right:0px;
+  padding-left:40px;
+  padding-top:170px;
+
+}
+
+#sunnies {
+  padding-top:10px;
+  padding-right:5px;
+  padding-left:100px;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.images{
+  padding:5px;
+}
+
+.row {
+  padding-top:50px;
+  padding-right:100px;
+  padding-left:100px;
+}
+
+}
